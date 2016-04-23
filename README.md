@@ -6,7 +6,7 @@ Description: This is a short minimalist puzzle game in which the player must man
 
 Created Using: Android Studio
 
-Version & Date: Version 1.0.1, 4/23/16
+Version & Date: Version 1.0.2, 4/23/16
 
 Devpost Link: http://devpost.com/software/escape-6xa8zn
 
