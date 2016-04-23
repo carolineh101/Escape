@@ -21,7 +21,8 @@
         <activity android:name=".Room4" />
         <activity android:name=".Room5" />
         <activity android:name=".Room6" />
-        <activity android:name=".Room7"></activity>
+        <activity android:name=".Room7" />
+        <activity android:name=".Escaped"></activity>
     </application>
 
 </manifest>

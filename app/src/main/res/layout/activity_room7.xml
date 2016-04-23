@@ -9,24 +9,52 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.carolineho.escape.Room7">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Outside"
-        android:id="@+id/textView12"
+        android:id="@+id/Space1"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold" />
+        android:text="Room 7"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:inputType="text"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Space2"
+        android:text="This room has much more space... but now the end of the room is too far away."
+        android:background="@android:color/transparent"
+        android:cursorVisible="false"
+        android:inputType="text"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/ToRoom8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Room 8"
+        android:id="@+id/ToRoom8"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="A warning and a paradox: When you exit, you enter the rooms again."
-        android:id="@+id/textView13"
-        android:layout_below="@+id/textView12"
+        android:id="@+id/Dummy"
+        android:layout_below="@+id/ToRoom8"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="81dp" />
+        android:layout_marginTop="65dp" />
 
 </RelativeLayout>
