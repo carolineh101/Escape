@@ -23,8 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="It looks like the button to the next room is broken. But it&apos;ll be fine as long as you get to"
-        android:id="@+id/textView7"
+        android:text="It looks like the button to the next room is broken. But it&apos;ll be fine as long as you get to room 4."
+        android:id="@+id/ToRoom4"
         android:layout_below="@+id/textView5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="81dp" />
@@ -36,16 +36,5 @@
         android:id="@+id/button"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="room 4."
-        android:id="@+id/toRoom4"
-        android:layout_below="@+id/textView7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:clickable="true" />
 
 </RelativeLayout>

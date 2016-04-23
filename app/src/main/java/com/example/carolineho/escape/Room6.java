@@ -17,6 +17,7 @@ public class Room6 extends AppCompatActivity {
     private Button mToRoom7;
     private EditText mClutter1;
     private EditText mClutter2;
+    private TextView mDummy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,8 @@ public class Room6 extends AppCompatActivity {
         mToRoom7 = (Button) findViewById(R.id.ToRoom7);
         mClutter1 = (EditText) findViewById(R.id.Clutter1);
         mClutter2 = (EditText) findViewById(R.id.Clutter2);
+        mDummy = (TextView) findViewById(R.id.Dummy);
+        mClutter2.setTextColor(mDummy.getTextColors().getDefaultColor());
 
         TextView.OnEditorActionListener clutter1Listener = new TextView.OnEditorActionListener() {
             @Override
