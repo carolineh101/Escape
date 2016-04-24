@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Clutter2"
         android:text="It&apos;s too cluttered to leave."
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="80dp"
         android:background="@android:color/transparent"
         android:cursorVisible="false"
         android:inputType="text"

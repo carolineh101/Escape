@@ -65,7 +65,7 @@ public class Room7 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (mSpace1.getText().toString().equals("Room7") && mSpace2.getText().toString().equals("Thisroomhasmuchmorespace...butnowtheendoftheroomistoofaraway.")) {
-                    Intent intent = new Intent(Room7.this, Escaped.class);
+                    Intent intent = new Intent(Room7.this, Room8.class);
                     startActivity(intent);
                 }
             }

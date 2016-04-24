@@ -15,9 +15,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="The way forward is hidden. Can&apos;t you do anything to change the room?"
         android:id="@+id/textView6"
-        android:layout_marginBottom="73dp"
-        android:layout_above="@+id/ToRoom1"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/Room2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

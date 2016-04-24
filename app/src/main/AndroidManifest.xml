@@ -22,7 +22,9 @@
         <activity android:name=".Room5" />
         <activity android:name=".Room6" />
         <activity android:name=".Room7" />
-        <activity android:name=".Escaped"></activity>
+        <activity android:name=".Escaped" />
+        <activity android:name=".Room8" />
+        <activity android:name=".Room9"></activity>
     </application>
 
 </manifest>

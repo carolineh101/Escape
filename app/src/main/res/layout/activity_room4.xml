@@ -33,8 +33,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="The button should still be there... If you&apos;re patient, maybe you can still get into the next room."
         android:id="@+id/textView9"
-        android:layout_marginBottom="64dp"
-        android:layout_above="@+id/ToRoom5"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/textView8"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

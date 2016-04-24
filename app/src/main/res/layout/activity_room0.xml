@@ -33,7 +33,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="It seems you&apos;ve been locked into a maze.  Looks like you can only go forward..."
         android:id="@+id/textView3"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="80dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
