@@ -33,6 +33,19 @@ public class Room7 extends AppCompatActivity {
         mSpace2.setHorizontallyScrolling(false);
         mSpace2.setMaxLines(3);
 
+        View.OnClickListener clickSpace1Listener = new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                if (v.getId() == mSpace1.getId())
+                {
+                    mSpace1.setCursorVisible(true);
+                }
+            }
+        };
+
+        mSpace1.setOnClickListener(clickSpace1Listener);
+
         TextView.OnEditorActionListener space1Listener = new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -46,6 +59,19 @@ public class Room7 extends AppCompatActivity {
         };
 
         mSpace1.setOnEditorActionListener(space1Listener);
+
+        View.OnClickListener clickSpace2Listener = new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                if (v.getId() == mSpace2.getId())
+                {
+                    mSpace2.setCursorVisible(true);
+                }
+            }
+        };
+
+        mSpace2.setOnClickListener(clickSpace2Listener);
 
         TextView.OnEditorActionListener space2Listener = new TextView.OnEditorActionListener() {
             @Override
@@ -64,7 +90,7 @@ public class Room7 extends AppCompatActivity {
         View.OnClickListener toRoom8Listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mSpace1.getText().toString().equals("Room7") && mSpace2.getText().toString().equals("Thisroomhasmuchmorespace...butnowtheendoftheroomistoofaraway.")) {
+                if (mSpace1.getText().toString().equals("Room7") && mSpace2.getText().toString().equals("Thisroomhastoomuchspace.")) {
                     Intent intent = new Intent(Room7.this, Room8.class);
                     startActivity(intent);
                 }

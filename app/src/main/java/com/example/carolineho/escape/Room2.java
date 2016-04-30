@@ -35,6 +35,19 @@ public class Room2 extends AppCompatActivity {
 
         mToRoom1.setOnClickListener(toRoom1Listener);
 
+        View.OnClickListener clickRoom2Listener = new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                if (v.getId() == mRoom2.getId())
+                {
+                    mRoom2.setCursorVisible(true);
+                }
+            }
+        };
+
+        mRoom2.setOnClickListener(clickRoom2Listener);
+
         TextView.OnEditorActionListener room2Listener = new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -44,7 +57,7 @@ public class Room2 extends AppCompatActivity {
                         startActivity(intent);
                     }
                     InputMethodManager in = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                    in.hideSoftInputFromWindow(v.getApplicationWindowToken(),InputMethodManager.HIDE_NOT_ALWAYS);
+                    in.hideSoftInputFromWindow(v.getApplicationWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
                     return true;
                 }
                 return false;

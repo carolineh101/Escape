@@ -30,6 +30,19 @@ public class Room6 extends AppCompatActivity {
         mDummy = (TextView) findViewById(R.id.Dummy);
         mClutter2.setTextColor(mDummy.getTextColors().getDefaultColor());
 
+        View.OnClickListener clickClutter1Listener = new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                if (v.getId() == mClutter1.getId())
+                {
+                    mClutter1.setCursorVisible(true);
+                }
+            }
+        };
+
+        mClutter1.setOnClickListener(clickClutter1Listener);
+
         TextView.OnEditorActionListener clutter1Listener = new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
@@ -43,6 +56,19 @@ public class Room6 extends AppCompatActivity {
         };
 
         mClutter1.setOnEditorActionListener(clutter1Listener);
+
+        View.OnClickListener clickClutter2Listener = new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                if (v.getId() == mClutter2.getId())
+                {
+                    mClutter2.setCursorVisible(true);
+                }
+            }
+        };
+
+        mClutter2.setOnClickListener(clickClutter2Listener);
 
         TextView.OnEditorActionListener clutter2Listener = new TextView.OnEditorActionListener() {
             @Override
