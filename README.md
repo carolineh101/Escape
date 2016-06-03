@@ -2,7 +2,7 @@
 
 **Winner of Best Overall Prize and Women in Computer Science Prize at HackOverflow (Stanford 2016)**
 
-**Winner of April 2016 she++ Challenge (sponsored by Microsoft): "Build a game that would keep you entertained all day"**
+**2nd Place Winner of April 2016 she++ Challenge (sponsored and judged by Microsoft): "Build a game that would keep you entertained all day"**
 
 Description: This is a short minimalist puzzle game in which the player must manipulate each screen or "room" (whether by clicking buttons or editing text) to escape.
 
